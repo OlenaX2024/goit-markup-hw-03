@@ -19,7 +19,7 @@ img {
   display: block;
 }
 
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -43,7 +43,6 @@ ol {
 .logo-navigation {
   display: flex;
   align-items: center;
-  margin: 0 auto;
 }
 .logo-link {
   font-family: "Raleway", sans-serif;
@@ -115,8 +114,11 @@ ol {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
   color: #ffffff;
+  text-transform: capitalize;
 }
 
 .button-link:hover,
@@ -139,17 +141,8 @@ ol {
   margin: auto;
 }
 .section-description {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
   padding-top: 120px;
   padding-bottom: 120px;
-}
-.description-main {
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .description-h2 {
@@ -172,10 +165,13 @@ ol {
   width: calc((100% - 72px) / 4);
 }
 .description-title {
+  font-weight: 500;
+  font-size: 20px;
   margin-bottom: 8px;
 }
 .description-text {
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -199,15 +195,6 @@ ol {
   gap: 24px;
 }
 .first-name-one {
-  padding: 32px 0;
-}
-.second-name-two {
-  padding: 32px 0;
-}
-.third-name-three {
-  padding: 32px 0;
-}
-.fourth-name-four {
   padding: 32px 0;
 }
 .information .team-text {
@@ -267,7 +254,6 @@ ol {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .payment-cash-two {
   padding: 32px 16px;
@@ -326,6 +312,10 @@ ol {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.container-logo-box {
+  display: flex;
+  align-items: baseline;
+}
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -348,6 +338,7 @@ ol {
 }
 
 .logo-text {
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
